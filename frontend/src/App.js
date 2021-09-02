@@ -3,8 +3,7 @@ import './App.css';
 import Posts from "./components/Posts"
 import PostForm from "./components/PostForm"
 
-import { applyMiddleware, createStore } from "redux";
-import { Provider, connect } from "react-redux";
+import { Provider } from "react-redux";
 
 import store from "./redux/store";
 
